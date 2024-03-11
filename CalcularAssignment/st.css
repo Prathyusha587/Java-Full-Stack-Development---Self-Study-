@@ -1,0 +1,56 @@
+.container{
+    text-align: center;
+    margin-top:23px
+}
+ 
+table{
+    margin: auto;
+    text-align: center;
+}
+ 
+input{
+    border-radius: 8px;
+    font-size:34px;
+    height: 65px;
+    width: 280px;
+    scroll-behavior: smooth;
+    text-align: right;
+    
+}
+h1{
+    color: blue;
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+button{
+    border-radius: 8px;
+    font-size: 20px;
+    background: #ffffff;
+    width: 60px;
+    height: 50px;
+    margin: 6px;
+    font-weight: bolder;
+    
+}
+#equals {
+    text-align: center;
+    margin-left:150%;
+    width:60px;
+    height:45px;
+    border-radius: 8px;
+}
+
+ 
+.calculator{
+    background-color: #0d7ceb;
+    padding: 28px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top:16px;
+    width:21%;
+    height:30%;
+
+   
+}
