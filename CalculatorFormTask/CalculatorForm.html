@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Online Calculator Form Model</title>
+    <link rel="stylesheet"
+        href="C:\Users\91951\OneDrive\Desktop\Live_Sessions\Assignments\CalculatorFormTask\styles\calcstyles.css">
+</head>
+
+<body>
+    <h1>Online Calculator @ CGI</h1>
+    <form name="calcForm">
+        <table>
+            <tr>
+
+                <label for="firstNumber" >1st Number: </label>
+                <input type="text" id="firstNum" name="firstNum"><br> <br>
+                <label for="secondNumber" >2nd Number: </label>
+                <input type="text" id="secondNum" name="secNum"><br> <br>
+                <label for="operation" >Operation: </label>
+                <select name="operation" id="arithmeticOp" onchange="result()">
+                    <option hidden >Select an arithmetic operation here</option>
+                    <option value="+">+</option>
+                    <option value="-" >-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>>
+
+                </select> <br> <br />
+               
+
+            </tr>
+            <tr>
+                <output><p id="finalRes" ></p></output>
+            </tr>
+        </table>
+
+    </form>
+
+
+</body>
+<script src="C:\Users\91951\OneDrive\Desktop\Live_Sessions\Assignments\CalculatorFormTask\calcForm.js"></script>
+
+</html>

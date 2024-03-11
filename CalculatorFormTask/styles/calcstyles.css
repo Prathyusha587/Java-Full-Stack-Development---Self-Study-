@@ -1,0 +1,49 @@
+* {
+  background-color: rgb(221, 234, 239);
+}
+
+body {
+  text-align: center;
+  padding: 1px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: left;
+  font-weight: bold;
+  color: #1cacfa;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+label {
+  font-weight: bold;
+  color: #050525;
+  font-size: 20px;
+  text-align: center;
+}
+
+option {
+  font-weight: bold;
+  color: #050525;
+  font-size: 20px;
+  text-align: left;
+}
+
+select {
+  width: 280px;
+  height: 30px;
+  border: black 3px solid;
+  font-weight: bold;
+}
+
+#firstNum, #secondNum {
+  width: 180px;
+  height: 30px;
+  border: black 3px solid;
+}
+
+output {
+  font-size: x-large;
+  font-weight: bold;
+}/*# sourceMappingURL=calcstyles.css.map */
